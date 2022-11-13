@@ -1,0 +1,81 @@
+[
+  {
+    "id":1,
+    "nombre":"Lata Artesanal",
+    "precio":500,
+    "img":"./public/img/latas.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":2,
+    "nombre":"Vino Tinto",
+    "precio":600,
+    "img":"./public/img/vino1.jpg",
+    "cantidad":1
+  },
+
+  {
+    "id":3,
+    "nombre":"Vino Blanco",
+    "precio":750,
+    "img":"./public/img/vino2.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":4,
+    "nombre":"Vino Rosado",
+    "precio":660,
+    "img":"./public/img/vino3.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":5,
+    "nombre":"Bocaditos",
+    "precio":370,
+    "img":"./public/img/bocaditos.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":6,
+    "nombre":"Ravioles",
+    "precio":450,
+    "img":"./public/img/ravioles.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":7,
+    "nombre":"Papas Baston",
+    "precio":300,
+    "img":"./public/img/papas-baston.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":8,
+    "nombre":"Medallones",
+    "precio":350,
+    "img":"./public/img/medallones.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":9,
+    "nombre":"Hamburguesas",
+    "precio":450,
+    "img":"./public/img/promo-hamburguesa.jpeg",
+    "cantidad":1
+  },
+
+  {
+    "id":10,
+    "nombre":"Panchos",
+    "precio":400,
+    "img":"./public/img/promo-pancho.jpeg",
+    "cantidad":1
+  }
+]

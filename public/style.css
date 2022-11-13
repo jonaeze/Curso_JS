@@ -1,0 +1,642 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/*reset*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+footer {
+  background-attachment: scroll;
+}
+
+body {
+  background-image: url(../public/img/fondo-madera.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #090909;
+  font-style: italic;
+}
+
+h1 {
+  background: #fb0101;
+  background: linear-gradient(to top, #fb0101 34%, black 55%);
+  font-family: "Rock Salt", cursive;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+h3 {
+  color: #090909;
+  font-family: "Rock Salt", cursive;
+}
+
+h2 {
+  color: #090909;
+  font-family: "Rock Salt", cursive;
+}
+
+h5 {
+  background: #fb0101;
+  background: linear-gradient(to top, #fb0101 34%, black 55%);
+  font-family: "Rock Salt", cursive;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#formulario {
+  text-align: center;
+}
+
+/*animaciones y/o degrades*/
+
+.degrade {
+  background: linear-gradient(to top, orange, red);
+  border: groove #090909 3px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.degradeB {
+  background: linear-gradient(to top, orange, red);
+  border: groove #090909 3px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.degradeF {
+  background: linear-gradient(to top, orange, red);
+  border: groove #090909 1px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.degradeTrans {
+  background: #f05f04;
+  background: linear-gradient(
+    0deg,
+    rgba(240, 95, 4, 0.597076) 0%,
+    rgba(228, 3, 3, 0.689513) 100%
+  );
+}
+
+.justh {
+  justify-items: center;
+}
+
+.justv {
+  align-items: center;
+}
+
+.justcont {
+  justify-content: space-between;
+}
+
+.alingc {
+  align-content: space-between;
+}
+
+.rotate:hover {
+  transform: rotateZ(360deg);
+  cursor: pointer;
+  transition: all 3s;
+}
+
+/*clases para los textos*/
+
+.text-center {
+  text-align: center;
+}
+
+.te-redes {
+  color: #0f05d4df;
+  font-family: "Rock Salt", cursive;
+}
+
+.teQuienesSomos {
+  text-align: center;
+}
+
+.text-listaBe {
+  margin: 30px 30px;
+  padding: auto;
+}
+
+.text-red {
+  color: #cd3a3a;
+}
+
+.text-black {
+  color: #090909;
+}
+
+.intro,
+.text-QuienesSomos {
+  margin: 10px 10px;
+  padding: 10px;
+  border: groove #090909 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.text-QuienesSomos {
+  margin: 25px 35px;
+  padding: 15px;
+  border: groove #090909 6px;
+}
+
+/*Ajustes para imagenes*/
+
+.fondo-1 {
+  background-color: #f7a53b;
+}
+
+.logop {
+  text-align: center;
+}
+
+.logoprit {
+  width: 33%;
+}
+
+.logomap {
+  text-align: center;
+  margin: 25px 25px;
+  padding: 0px;
+  background-color: #f7a53b;
+  border: groove #090909 6px;
+  border-radius: 10px;
+}
+
+.frente {
+  text-align: center;
+}
+
+/*etiquetas*/
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+}
+nav ul li a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #090909;
+  font-family: "Rock Salt", cursive;
+}
+
+/*Botonera*/
+
+.botones {
+  background-color: #ae7a36;
+  margin: 20px 20px;
+  padding: 5px;
+  border: groove #090909 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*Tamaños imagenes*/
+
+.instagram {
+  width: 20%;
+}
+
+.whatsapp {
+  width: 20%;
+}
+
+.facebook {
+  width: 20%;
+}
+
+.localExterior {
+  width: 30%;
+}
+
+.img-frente {
+  width: 20%;
+}
+
+.img-frente2 {
+  width: 33%;
+}
+
+/*Flex y box*/
+.box {
+  padding: 0px;
+  margin: 10px 10px;
+  text-align: center;
+  border: groove #090909 6px;
+  border-radius: 10px;
+}
+
+.boxB {
+  padding: 0px;
+  margin: 20px 20px;
+  text-align: center;
+  border: groove #090909 3px;
+  border-radius: 10px;
+}
+
+.boxF {
+  padding: 10px;
+  margin: 20px 20px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.flex-direction {
+  flex-direction: row;
+}
+
+.centrar-img {
+  justify-content: space-evenly;
+}
+
+/*Grid para Bebidas*/
+.grid {
+  width: 99%;
+  display: grid;
+}
+
+.filasColumnas {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  text-align: center;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+/*Grid y media queries*/
+
+.cuerpo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+
+#mainNav {
+  grid-area: nav;
+}
+
+#header {
+  grid-area: header;
+}
+
+#body {
+  grid-area: cuerpo;
+}
+
+#main {
+  grid-area: main;
+  flex-direction: column;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.piePagina {
+  display: inline-block;
+  margin: 0 30px;
+  text-align: center;
+}
+/*cards*/
+
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: "Istok Web", sans-serif;
+} */
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+} */
+
+.carrito-font {
+  font-size: 1.7rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #090909;
+  font-family: "Rock Salt", cursive;
+}
+
+.card {
+  position: sticky;
+  width: 320px;
+  height: 480px;
+  margin: auto;
+  background: #191919;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(210, 18, 18, 0.74) 100%;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.card::after {
+  content: "MaderoCity";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 6em;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.card .imgBox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+/* .card .imgBox img {
+    max-width: 100%;
+    
+    transition: .5s;
+}
+
+.card:hover .imgBox img {
+    max-width: 50%;
+      
+} */
+
+.card .contentBox {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.card .contentBox h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card .contentBox .price {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card .contentBox .buy {
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #000000;
+  text-decoration: none;
+  background: #ffce00;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.card:hover .contentBox .buy {
+  top: 0;
+  opacity: 1;
+}
+
+.card .card-image .card-title {
+  color: rgb(225, 76, 65);
+  position: unset;
+}
+
+.productosBebidas {
+  height: 300px;
+  width: auto;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 576px) {
+  .cuerpoBe {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "nav"
+      "header"
+      "cuerpo"
+      "main"
+      "footer";
+  }
+  .filasColumnas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center;
+    grid-template-areas:
+      "nav"
+      "header"
+      "cuerpo"
+      "main"
+      "footer";
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img-frente {
+    width: 50%;
+  }
+  .div-quienesSomos {
+    width: 100% !important;
+  }
+  .div-logoMap {
+    width: 100% !important;
+  }
+  footer {
+    background-attachment: scroll;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .div-quienesSomos {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cuerpo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "nav"
+      "header"
+      "cuerpo"
+      "main"
+      "footer";
+  }
+}
+
+/*Ajustes Varios*/
+
+/*carrito*/
+
+.encabezadoEnCarrito {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.encabezadoEnCarrito p {
+  padding: 0px 40px;
+  justify-content: space-between;
+}
+
+.contenido-modal {
+  background-image: url(../public/img/fondo-madera.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-modal {
+  background: #fb0101;
+  background: linear-gradient(to top, #fb0101 34%, black 55%);
+  font-family: "Rock Salt", cursive;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: medium;
+}
+
+.productoEnCarrito {
+  border-left: 5px solid rgb(6, 3, 109);
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productoEnCarrito:hover {
+  border-left: 5px solid rgb(226, 229, 7);
+}
+
+.boton-eliminar {
+  background-color: white;
+  color: #f61105;
+  border: none;
+  font-size: 10px;
+}
+
+.boton-eliminar:hover {
+  cursor: pointer;
+}
+
+.boton-eliminar:focus {
+  outline: none;
+}
+
+.texto-carrito {
+  color: white;
+}
+
+.boton-finalizar-compra {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  /* display: flex;
+  justify-content: space-between; */
+}
